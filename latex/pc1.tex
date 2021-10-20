@@ -46,10 +46,10 @@
 \Large Indicaciones específicas:
 \normalsize
 \begin{itemize}
+  \item El desarrollo de esta práctica es estrictamente individual.
   \item Esta evaluación contiene \numpages\ páginas (incluyendo esta página) con \numquestions\ preguntas. El total de puntos son \numpoints.
   \item El tiempo límite para la evaluación es \timelimit.
-  \item Adiciona uno a uno los programas que dan respuesta a cada pregunta planteada
-  \item Cada pregunta deberá ser respondida con el nombre de archivo solicitado.  Por ejemplo:
+  \item Cada pregunta deberá ser respondida con el nombre de archivo solicitado.
   \begin{enumerate}
     \item\begin{enumerate}
       \item \texttt{pregunta1\_1.png}
@@ -101,9 +101,9 @@ Tabla de puntos (sólo para uso del professor)\\
 
 \question[5] Compuertas Lógicas.
 
-En el laboratorio 2 del curso, aprendimos que la computadora utiliza transistores para almacenar los datos sobre los cuales opera. Debido a ello, el procesador utiliza los operadores lógicos AND, OR y NOT para poder realizar operaciones booleanas o aritméticas.
+En el laboratorio 2 del curso, aprendimos que la computadora utiliza transistores para almacenar los datos sobre los cuales opera. Por esta razón, el procesador se ve en la necesidad del uso de los operadores lógicos AND, OR y NOT para poder realizar operaciones booleanas o aritméticas.
 
-Un ejemplo de un operador matemático es el operador de suma el cual recibe dos números a operar y devuelve un resultado.
+Un ejemplo de un operador matemático es el operador de suma, el cual recibe dos números a operar y devuelve un resultado.
 
 El operador \lstinline{medio sumador} realiza la operación de suma pero de sólo dos bits. Devolviendo un bit de acarreo y un bit de suma. Su tabla de verdad puede ser apreciada en la Figura \ref{fig:suma}:
 
@@ -118,7 +118,7 @@ Donde SUM es la Suma de ambos bits, y CARRY es el acarreo de la suma.
 
 Implemente el operador \lstinline{medio sumador} utilizando \href{https://academo.org/demos/logic-gate-simulator/}{la herramienta online} usada en el laboratorio y únicamente los operadores AND, OR y NOT.
 
-La operación `medio sumador` esta representada por la siguiente ecuación:
+La operación \lstinline{medio sumador} esta representada por la siguiente ecuación:
 
 \begin{displaymath}
   SUM=A\overline{B}\cdot{}B\overline{A}
@@ -130,7 +130,7 @@ La operación `medio sumador` esta representada por la siguiente ecuación:
 
 \emph{Tip: Empiece analizando la cantidad de entradas y salidas necesarias. Después de ello, empiece a agregar los operadores necesarios. Recuerde que solo puede utilizar los operadores AND, OR y NOT.}
 
-Suba una imagen del circuito mostrando cada uno los casos mostrados en la tabla de verdad en archivos llamados \lstinline{pregunta1_1.png}, \lstinline{pregunta1_2.png}, \lstinline{pregunta1_3.png} y \lstinline{pregunta1_4.png}.
+Suba una imagen del circuito para cada uno los casos mostrados en la tabla de verdad, en archivos llamados \lstinline{pregunta1_1.png}, \lstinline{pregunta1_2.png}, \lstinline{pregunta1_3.png} y \lstinline{pregunta1_4.png}.
 
 \newpage
 
@@ -152,9 +152,9 @@ La r\'ubrica para esta pregunta es:
 
     Uso de compuertas lógicas (3pts) &
     Utiliza correctamente las compuertas lógicas para el circuito solicitado. \textbf{(3pts)}&
-    Realiza correctamente el circuito solicitado para la SUM, sin embargo, existe un error en las compuertas que calculan el CARRY. \textbf{(2pts)}&
+    Realiza correctamente el circuito solicitado para SUM, sin embargo, existe un error en las compuertas que calculan el CARRY. \textbf{(2pts)}&
     Realiza correctamente el circuito solicitado para el CARRY, sin embargo, existe un error en las compuertas que calculan el SUM.  \textbf{(1pts)}&
-    No calcula correctamente SUM ni el CARRY. \textbf{(0pts)}\\
+    No calcula correctamente ni el SUM ni el CARRY. \textbf{(0pts)}\\
 
     \hline
 
@@ -173,6 +173,7 @@ La r\'ubrica para esta pregunta es:
 \newpage
 
 \question[5] Operaciones con bits en Python
+
 En el laboratorio 3, aprendimos algunos operadores a nivel de bits de python. Entre ellos, los operadores:
 
 \begin{itemize}
@@ -183,7 +184,7 @@ En el laboratorio 3, aprendimos algunos operadores a nivel de bits de python. En
 
 Se le presenta una función en python llamada \lstinline{numero_unico}. Dicha función recibe 7 números, todos los números están repetidos una vez. \textbf{Sólo uno de ellos no está repetido.}
 
-Se le pide modificar la función número único de tal manera que guarde en la variable \lstinline{respuesta} el número que no está repetido.
+Se le pide modificar la función \lstinline{numero_unico} de tal manera que guarde en la variable \lstinline{respuesta} el número que no está repetido.
 
 \textbf{Restricción}: Sólo puede utilizar los operadores mencionados. En otras palabras, solo puede utilizar \lstinline{&}, \lstinline{|}, \lstinline{^}.
 
@@ -261,7 +262,7 @@ La r\'ubrica para esta pregunta es:
 
 \question[5] Git
 
-En el laboratorio 4 aprendimos a utilizar el \href{https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax}{Markdown de GitHub} para crear nuestro archivo README en nuestra página de GitHub. Se le pide que replique el archivo ubicado en la siguiente página utilizando en Markdown de Git.
+En el laboratorio 4 aprendimos a utilizar el \href{https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax}{Markdown de GitHub} para crear nuestro archivo README en nuestra página de GitHub. Se le pide que replique el archivo ubicado en la siguiente página utilizando en Markdown de GitHub.
 
 Puede obtener la imagen del siguiente \href{https://preview.redd.it/sk9nb6lgccq31.gif?format=png8&s=4314adede1e763a54cb4b435e3d246da0460d3ae}{link}
 
@@ -329,11 +330,11 @@ La rúbrica para esta pregunta es:
 
     \hline
 
-    Inclusión de imágenes y extensión adecuada del archivo (1pts) &
-    Realiza correctamente la creación imagénes y el archivo cuenta con el formato .md correcto\textbf{(1pts)} &
-    Realizar correctamente la creación de la imágen, sin embargo el archivo no tiene la extensión .md \textbf{(0.5pts)} &
-    No realiza correctamente la creación de la imagen, pero el archivo tiene la extensión .md correspondiente \textbf{(0.25pts)} &
-    No demuestra conocimiento de inclusión de imágenes ni del formato del archivo .md \textbf{(0pts)}\\
+    Inclusión de imágenes y texto (1pts) &
+    Realiza correctamente la creación imagénes y el texto solicitado\textbf{(1pts)} &
+    Realizar correctamente la creación de la imágen, sin embargo el archivo no tiene todo el texto requerido \textbf{(0.5pts)} &
+    No realiza correctamente la creación de la imagen, pero el archivo tiene el resto del texto \textbf{(0.25pts)} &
+    No demuestra conocimiento de inclusión de imágenes ni de texto plano. \textbf{(0pts)}\\
     
     \hline
 
