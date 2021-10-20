@@ -125,6 +125,8 @@ if __name__ == '__main__':
     app.run(port=8080, threaded=True, host=('127.0.0.1'))
 ```
 
+Al ser una función muy sencilla, no se preocupe por hacerla funcionar en su computadora local. Simplemente siga los pasos para la creación de APIs que se explicó en el curso.
+
 Suba su archivo como `pregunta4.py`
 
 ## SQL
