@@ -18,7 +18,7 @@ Implemente el operador `medio sumador` utilizando [la herramienta online](https:
 
 La operación `medio sumador` esta representada por la siguiente ecuación:
 
-![](https://latex.codecogs.com/svg.latex?\Large&space;SUM=A\overline{B}\cdot{}B\overline{A})
+![](https://latex.codecogs.com/svg.latex?\Large&space;SUM=A\overline{B}+B\overline{A})
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;CARRY=A\cdot{}B)
 
