@@ -78,7 +78,7 @@ Suba su respuesta en un archivo llamado `pregunta2.py`.
 
 ## Git
 
-En el laboratorio 4 aprendimos a utilizar el [Markdown de GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para crear nuestro archivo README en nuestra página de GitHub. Se pe pide que replique el siguiente archivo utilizando en Markdown de Git:
+En el laboratorio 4 aprendimos a utilizar el [Markdown de GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para crear nuestro archivo README en nuestra página de GitHub. Se pide que replique el siguiente archivo utilizando en Markdown de Git:
 
 ![](./figures/pregunta3.png)
 
